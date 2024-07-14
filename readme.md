@@ -107,5 +107,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Chainsawman Landing page | used as a reference for Feature 1 | https://chainsawman.dog/ |
-| Playstation | used as a reference for Feature 2 | https://www.playstation.com/en-us/ |
+| |  |  |
+|  |  |  |
