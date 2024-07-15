@@ -91,7 +91,7 @@ section.feature1{
       transition: 0.5s;
       &:hover{
         transform: scale(1.2);
-        color: orangered;
+        color: rgb(255, 0, 0);
       }
   }
 }
@@ -132,7 +132,7 @@ section.feature2{
       transition: 0.5s;
       &:hover{
         transform: scale(1.2);
-        color: orangered;
+        color: rgb(255, 0, 0);
       }
   }
   &::before{
@@ -182,7 +182,7 @@ section.volumes{
       margin-left: 2rem;
       &:hover{
         transform: scale(1.2);
-        color: orangered;
+        color: rgb(255, 0, 0);
       }
   }
   &::before{
@@ -208,7 +208,7 @@ footer.design2{
           transition: 1s;
           &:hover{
               transform:rotateY(360deg);
-              color: orangered;
+              color: rgb(255, 0, 0);
           }
       }
   }
@@ -225,7 +225,7 @@ footer.design2{
           margin: 10px;
           transition: 1s;
           &:hover{
-              color: orangered;
+              color: rgb(255, 0, 0);
               background-color: black;
               padding: 1rem;
               border-radius: 10px;
