@@ -55,7 +55,7 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-This repository project will showcase two different designs to showcase the features of a website.
+This repository project will show two different designs to showcase the features of the 2 websites.
 The technology used in this website is CSS and HTML.
 
 ### Key Components
@@ -107,5 +107,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| |  |  |
-|  |  |  |
+| Demon Slayer BG/ Landing page | used as ref for page 1 | https://i.redd.it/kq8ryp7jww191.png |
+|  Asus Rog | used as ref for page 2  | https://id.pinterest.com/pin/272397477453581249/ |
