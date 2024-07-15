@@ -1,0 +1,246 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(58, 57, 57);
+  & img{
+      width: 3rem;
+      height: 3rem;
+  }
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 100dvw;
+  background: url(../img/DemonSlayer.png);
+  background-position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  & h1{
+      font-size: 3rem;
+      position: relative;
+      color: #fff;
+      text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+      align-items: center;
+      justify-content: center;
+      display: flex;
+  }
+  & h2{
+      font-size: 6rem;
+      color: #fff;
+      position: relative;
+      text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+  }
+  &::before{
+      content: '';
+      position: absolute;
+      width: 100dvw;
+      height: 100dvh;
+      background: rgba(0,0,0,0.5);
+}
+}
+section.feature1{
+  background: url(../img/Kimetsu.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 100dvw;
+  margin-top: .5rem;
+  padding: 1rem;
+  & h1{
+      font-size: 3rem;
+      color: #fff;
+      text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+      display: flex;
+      padding: 23rem 1rem 1rem 1rem;
+      justify-content: center;
+      background: transparent;
+      align-items: flex-start;
+  }
+  & p{
+      font-size: 1.5rem;
+      color: #fff;
+      text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+      display: flex;
+      justify-content: center;
+  }
+  & a{
+      font-size: 1.5rem;
+      color: #fff;
+      text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      background: #000;
+      align-items: center;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.5s;
+      &:hover{
+        transform: scale(1.2);
+        color: orangered;
+      }
+  }
+}
+section.feature2{
+  background: url(../img/demon-slayer-characters.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100dvw;
+  height: 100dvh;
+  margin-top: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & h1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      font-size: 6rem;
+      text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+      color: #fff;
+  }
+  & a{
+      font-size: 1.5rem;
+      position: relative;
+      color: #fff;
+      text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      background: #000;
+      align-items: center;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+      transition: 0.5s;
+      &:hover{
+        transform: scale(1.2);
+        color: orangered;
+      }
+  }
+  &::before{
+      content: '';
+      position: absolute;
+      width: 100dvw;
+      height: 100dvh;
+      background: rgba(0,0,0,0.5);
+}
+}
+section.volumes{
+  background: url(../img/Demonslayer.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100dvw;
+  height: 100dvh;
+  margin-top: .5rem;
+  display: flex;
+  flex-direction: column;
+
+  & h1{
+      display: flex;
+      margin-left: 1rem;
+      position: relative;
+      justify-content: left;
+      font-size: 6rem;
+      text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+      color: black;
+      padding: 28rem 1rem 1rem 1rem;
+      color: white;
+  }
+  & a{
+      font-size: 1.5rem;
+      color: #fff;
+      margin-left: 1rem;
+      position: relative;
+      text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+      padding: 1rem;
+      background: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+      transition: 0.5s;
+      max-width: 10rem;
+      align-items: center;
+      margin-left: 2rem;
+      &:hover{
+        transform: scale(1.2);
+        color: orangered;
+      }
+  }
+  &::before{
+      content: '';
+      position: absolute;
+      width: 100dvw;
+      height: 100dvh;
+      background: rgba(0,0,0,0.5);
+}
+}
+footer.design2{
+  background-color: rgb(58, 57, 57);
+  padding-top: 1rem;
+  & .footer-content2{
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      & i{
+          font-size: 30px;
+          margin: 10px;
+          transition: 1s;
+          &:hover{
+              transform:rotateY(360deg);
+              color: orangered;
+          }
+      }
+  }
+  & .service{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 1rem;
+      & a{
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+          margin: 10px;
+          transition: 1s;
+          &:hover{
+              color: orangered;
+              background-color: black;
+              padding: 1rem;
+              border-radius: 10px;
+          }
+      }
+  }
+  & .trademark{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      & p{
+          margin: 10px;
+          color: white;
+      }
+  }
+}

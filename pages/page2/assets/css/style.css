@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2E6DB4;
+  padding: .2rem 3rem;
+  & img{
+      height: 3rem;
+      transition: 2.5s;
+      &:hover{
+          transform: rotateY(360deg);
+      }
+  }
+  & a{
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.5rem;
+      padding: .5rem;
+      font-weight: 1000;
+      transition: 1s;
+      &:hover{
+          color: #000;
+          background-color: #fff;
+          border-radius: 10px;
+      }
+  }
+}
+section.hero-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  background: url(../img/psbg.jpg);
+  background-size: cover;
+  background-position: center;
+  & img{
+      height: 20rem;
+      transition: 2.5s;
+      &:hover{
+          transform: scale(1.5);
+      }
+  }
+}
+section.feature1{
+  background: url(../img/ps4.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  height: 100dvh;
+  margin-top: .5rem;
+  & .content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+      & img{
+          height: 5rem;
+          transition: 2.5s;
+          &:hover{
+              transform: scale(1.5);
+          }
+      }
+      & h1{
+          color: #fff;
+          font-size: 6rem;
+          font-weight: 1000;
+          text-align: center;
+          text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+          transition: 1s;
+          &:hover{
+              transform: scale(1.1);
+          }
+      }
+      & p{
+          color: #fff;
+          font-size: 1.2rem;
+          font-weight: 1000;
+          text-align: center;
+          padding: 1rem;
+          text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+      }
+      & nav{
+          display: flex;
+          gap: 1rem;
+          & button{
+              padding: .5rem 1rem;
+              background-color: #2E6DB4;
+              color: #fff;
+              border: none;
+              border-radius: 10px;
+              font-size: 1.5rem;
+              cursor: pointer;
+              transition: 1s;
+              &:hover{
+                  background-color: #fff;
+                  color: #000;
+              }
+          }
+      }
+  }
+}
+section.feature2{
+  background:url(../img/playstation-5-dualsense-wireless-controller-3840x2160-21919.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100dvh;
+  background-repeat: no-repeat;
+  margin-top: .5rem;
+  & .content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100dvh;
+      padding-top: 1rem;
+      text-align: center;
+  & img{
+      height: 5rem;
+      transition: 2.5s;
+      &:hover{
+          transform: scale(1.5);
+      }
+  }
+  & p{
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 1000;
+      text-align: center;
+      padding: 1rem;
+      text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+  }
+  & h1{
+      color: #fff;
+      font-size: 6rem;
+      font-weight: 1000;
+      text-align: center;
+      text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+      transition: 1s;
+      &:hover{
+          transform: scale(1.1);
+      }
+  }
+  & nav{
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      & button{
+          padding: .5rem 1rem;
+          background-color: #2E6DB4;
+          color: #fff;
+          border: none;
+          border-radius: 10px;
+          font-size: 1.5rem;
+          cursor: pointer;
+          transition: 1s;
+          &:hover{
+              background-color: #fff;
+              color: #000;
+              }
+          }
+      }
+  }
+}
+section.feature3{
+  background: url(../img/Playstationbg.gif);
+  background-size: cover;
+  background-position: center;
+  height: 100dvh;
+  background-repeat: no-repeat;
+  width: 100dvw;
+  margin-top: .5rem;
+  & div.content{
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      padding-top: 1rem;
+      & h1{
+          color: #fff;
+          font-size: 6rem;
+          font-weight: 1000;
+          text-align: left;
+          text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+          padding: .5rem;
+          transition: 1s;
+          padding-top: 28rem;
+          padding-left: 2rem;
+          &:hover{
+              color: yellow;
+          }
+      }
+      & p{
+          color: #fff;
+          font-size: 1.2rem;
+          font-weight: 1000;
+          text-align: left;
+          padding: 1rem;
+          text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+      }
+  }
+}
+footer.design3{
+  background-color: rgb(53, 51, 51);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1;
+  & a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      margin: 10px;
+      transition: 1s;
+      &:hover{
+          color: black;
+          background-color: yellow;
+          border-radius: 10px;
+          padding: .6rem;
+      }
+  }
+  & .site{
+      color: white;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+  & .services{
+      margin-bottom: 0.5rem;
+      & a{
+          text-decoration: none;
+          color: white;
+          padding: 10px;
+          font-size: 20px;
+          margin: 10px;
+      }
+  }
+  & .social{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      & i{
+          font-size: 30px;
+          color: #2E6DB4;
+          margin: 10px;
+      }
+  }
+  & .trademark{
+      & p{
+          margin: 10px;
+          color: white;
+      }
+  }
+}
