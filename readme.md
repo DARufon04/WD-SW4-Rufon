@@ -86,7 +86,7 @@ WD-ProjectName
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|      └─ fileWith.jpeg/.jpg/.webp/.png
 |   
 |       
 └─ pages
@@ -95,7 +95,7 @@ WD-ProjectName
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |    └─ fileWith.jpeg/.jpg/.webp/.png
 |     |  
 |     |  
 |     └─ index.html
@@ -108,5 +108,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Demon Slayer BG/ Landing page | used as ref for page 1 | https://i.redd.it/kq8ryp7jww191.png |
-|  Asus Rog | used as ref for page 2  | https://id.pinterest.com/pin/272397477453581249/ |
+| Demon Slayer BG/ Landing page | used as ref for page 1 | [demonslayer.png](https://i.redd.it/kq8ryp7jww191.png) |
+|  Asus Rog | used as ref for page 2  | [rogpicture](https://id.pinterest.com/pin/272397477453581249/) |
