@@ -56,8 +56,8 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-This repository project will show two different designs to showcase the features of the 2 websites.
-The technology used in this website is CSS and HTML.
+- This project highlights various website features and helps
+improve skills in web design. It focuses on creating creative and enjoyable designs using only HTML and CSS.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
