@@ -107,6 +107,47 @@ section.feature2{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+  .characters {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 70%;
+    max-width: 2400px;
+  }
+
+  .characters h2 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 80%;
+    max-width: 800px;
+           }
+  .characters p {
+    color: white ;
+    line-height: 1.6;
+    font-size: 8rem;
+    text-shadow: black 3px 4px 5px;
+         }
+  .characters ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .characters li { 
+    color: white ;
+    line-height: 1.6;
+    font-size: 36px;
+    text-shadow: black 3px 4px 5px;
+    margin-bottom: 1rem;
+  }
+
+  .characters strong {
+    color: red;
+  }
+
   & h1{
       display: flex;
       justify-content: center;
@@ -116,6 +157,7 @@ section.feature2{
       text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
       color: #fff;
   }
+  
   & a{
       font-size: 1.5rem;
       position: relative;
@@ -141,7 +183,7 @@ section.feature2{
       width: 100dvw;
       height: 100dvh;
       background: rgba(0,0,0,0.5);
-}
+   }
 }
 section.volumes{
   background: url(../img/Demonslayer.png);
@@ -153,12 +195,41 @@ section.volumes{
   margin-top: .5rem;
   display: flex;
   flex-direction: column;
+  & main {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+      }
+  & table {
+    width: 30%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+     }
+  & thead {
+    background-color: #333;
+    color: #fff;
+     }
+  & th, td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid white;
+    }
+  & th {
+    font-size: 1.2rem; 
+     }
 
+  & tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+    }
+  & tbody tr:hover {
+    background-color: #f1f1f1;
+    }
   & h1{
       display: flex;
       margin-left: 1rem;
       position: relative;
-      justify-content: left;
+      justify-content: center;
       font-size: 6rem;
       text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
       color: black;
@@ -168,8 +239,7 @@ section.volumes{
   & a{
       font-size: 1.5rem;
       color: #fff;
-      margin-left: 1rem;
-      position: relative;
+      position: static;
       text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
       padding: 1rem;
       background: #000;
@@ -179,7 +249,8 @@ section.volumes{
       transition: 0.5s;
       max-width: 10rem;
       align-items: center;
-      margin-left: 2rem;
+      margin-left: 104rem;
+      justify-content: center;
       &:hover{
         transform: scale(1.2);
         color: rgb(255, 0, 0);
