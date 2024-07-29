@@ -6,6 +6,7 @@
 <div align="center">
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 4</h3>
+  <p>DARufon04 WD-Seatwork-4-Rufon</p>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -14,7 +15,7 @@
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
+<!-- TODO: Change the zyx-0314 into your github username  --> DARufon04
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=DARufon04/WD-SW4-Rufon)
 
@@ -62,7 +63,7 @@ The technology used in this website is CSS and HTML.
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
-  
+- Transitions
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -86,8 +87,8 @@ WD-ProjectName
 |   |   └─ style.css
 |   └─ img
 |   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
+|   
+|       
 └─ pages
 |  └─ pageName
 |     └─ assets
@@ -95,8 +96,8 @@ WD-ProjectName
 |     |  |  └─ style.css
 |     |  └─ img
 |     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
+|     |  
+|     |  
 |     └─ index.html
 └─ index.html
 └─ readme.md
