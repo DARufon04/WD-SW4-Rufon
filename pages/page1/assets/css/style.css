@@ -185,7 +185,40 @@ section.feature2{
       background: rgba(0,0,0,0.5);
    }
 }
-section.volumes{
+div.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  color: white;
+  padding-left: 52rem;
+  background: url(/assets/img/tanjiro.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  gap: 0.5rem;
+
+  & > h1 {
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+  }
+
+  & > h3 {
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+
+  & > p {
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+}
+
+section.second-feature{
   background: url(../img/Demonslayer.png);
   background-position: center;
   background-size: cover;
@@ -195,46 +228,108 @@ section.volumes{
   margin-top: .5rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
   & main {
     padding: 2rem;
     display: flex;
     justify-content: center;
       }
-  & table {
-    width: 30%;
-    border-collapse: collapse;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-     }
-  & thead {
-    background-color: #333;
-    color: #fff;
-     }
-  & th, td {
-    padding: 1rem;
+  & > div.skill-description {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        color: red;
+      }
+  & > div.skill-demo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10rem;
+  }
+  & > div.skill1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    border: 1px solid white;
+    gap: 0.5rem;
+    padding-bottom: 11.5rem;
+  }
+    & > img.skill1 {
+      height: 100px;
+      width: 100px;
     }
-  & th {
-    font-size: 1.2rem; 
-     }
 
-  & tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    & > h2.skill1-title {
+      color: red;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-  & tbody tr:hover {
-    background-color: #f1f1f1;
+
+    & > p.skill1-ft {
+      color: red;
+      width: 50%;
+    }
+
+    & > div.skill2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 0.5rem;
+      padding-bottom: 9rem;
+
+      & > img.skill2 {
+        height: 100px;
+        width: 100px;
+      }
+
+      & > h2.skill2-title {
+        color: red;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      & > p.skill2-ft {
+        color: red;
+        width: 50%;
+      }
+    }
+
+    & > div.skill3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 0.5rem;
+      padding-bottom: 8rem;
+
+      & > img.skill3 {
+        height: 100px;
+        width: 100px;
+      }
+
+      & > h2.skill3-title {
+        color: red;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      & > p.skill3-ft {
+        color: red;
+        width: 50%;
+      }
     }
   & h1{
       display: flex;
       margin-left: 1rem;
       position: relative;
       justify-content: center;
-      font-size: 6rem;
+      font-size: 3rem;
       text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
       color: black;
       padding: 28rem 1rem 1rem 1rem;
-      color: white;
+      color: red;
   }
   & a{
       font-size: 1.5rem;
@@ -266,7 +361,7 @@ section.volumes{
 }
 footer.design2{
   background-color: rgb(58, 57, 57);
-  padding-top: 1rem;
+  padding-top: 3rem;
   & .footer-content2{
       color: white;
       display: flex;
